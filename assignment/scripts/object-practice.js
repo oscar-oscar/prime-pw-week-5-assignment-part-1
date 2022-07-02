@@ -24,6 +24,8 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+const fullName = (me.firstName + ' ' + me.lastName);
+  console.log(fullName);
 
 
 
@@ -31,6 +33,9 @@ console.log('A little about me:', me);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log('first favorite food is:' , me.favThreeFoods[0]);
+console.log('third favorite food is:' , me.favThreeFoods[2]);
+
 
 
 
